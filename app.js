@@ -16,7 +16,7 @@ app.use('/posts', postRoute)
 
 //Routes
 app.get('/', (req, res) => {
-    res.send("We are on home")
+    res.send("We are on home page.")
 })
 
 //DB connect
